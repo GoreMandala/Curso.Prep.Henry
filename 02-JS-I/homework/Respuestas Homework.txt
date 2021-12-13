@@ -1,0 +1,47 @@
+	Variable.
+
+Son contenedores que sirven para almacenar varios tipos de datos, como números o palabras. 
+Cada contenedor se identifica con un nombre único y los datos que contienen pueden cambiar 
+a lo largo del tiempo, en JavaScript incluso el tipo de los mismos. Nosotros nos referimos 
+a ellos por su nombre, pero el computador trabaja con el contenido, los datos que almacenan.
+Para poder utilizarlos necesitamos declararlos primero, es decir, comunicarle al computador
+que existe dicho contenedor y que le hemos dado un nombre, pudiendo contener datos o no. Para
+declararlas usamos la palabra reservada var.
+
+	Strings.
+
+Son cadenas de caracteres, es decir, combinaciones de letras y números. Representan uno de los 
+tipos de datos que pueden almacenarse en las variables. Ya que el computador puede interpretar 
+un número, además de por su valor numérico, como carácter, para que pueda distinguir entre unos
+y otros las Strings se declaran siempre entre comillas: 'Esto es una cadena de caracteres'.
+
+	Funciones.
+
+Si un programa fuera una fábrica, las funciones serían sus máquinas. Cada una tiene un cometido
+particular y puede ser utilizada varias veces a lo largo del proceso productivo, del mismo modo 
+que un carpintero tiene que usar su martillo varias veces hasta terminar un mueble. Junto con
+las funciones vienen los argumentos y el comando "return". Continuando con la analogía los 
+argumentos serían los datos que va a usar la función, o los clavos con los que se usará el martillo.
+El comando "return" devolvería el resultado final de la función, o el armario ya completo.
+
+	Declaraciones If.
+
+El comando If representa los condicionales, una forma de visualizarlos sería aplicarlos a la cocina.
+En una receta podemos ver una instrucción que nos diga "Si el agua hierve, verter el arroz, si no 
+hierve subir la potencia del fuego" en ese caso, solo si el agua hierve, continuaremos a la segunda 
+parte de la instrucción, si no, saltaremos esa segunda parte para ir directamente al final. El 
+comando if funciona igual, propone una condición que debe cumplirse y en función de si lo hace o no,
+el programa actúa de una manera u otra.
+
+	Valores Booleanos.
+
+Íntimamente relacionados con el comando If, pero no exclusivos del mismo. Los valores booleanos
+pueden ser únicamente 2: Verdadero/Falso, Encendido/Apagado, 1/0. La computadora usará la lógica
+para evaluar sentencias, como por ejemplo "5 es mayor que 3", en cuyo caso el resultado será 
+"verdadero". En el caso de los condicionales la sentencia a evaluar es la propia condición: 
+"El agua hierve". Si el resultado de evaluar es verdadero, se continúa al siguiente paso, si es 
+falso, se salta al último.
+
+
+
+
