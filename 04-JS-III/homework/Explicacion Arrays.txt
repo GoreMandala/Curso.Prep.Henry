@@ -1,0 +1,9 @@
+
+	Arrays
+
+Los arrays son como una construcción de LEGO. Imaginemos que tenemos varias piezas de LEGO de diferentes colores. Tomamos la primera
+de ellas, que es roja y por sí sola ya es un array, pero podemos añadirle una segunda, esta vez azul. Ahora el conjunto de ambas piezas,
+nuestra "construcción" es un array formado por un bloque rojo, que es el primero y uno azul, que es el segundo. Podemos colocar tantos
+bloques como queramos y no necesariamente tiene por qué representar colores, algunos pueden llevar números grabados o palabras, de hecho
+podemos imaginar las palabras como un array de letras. Podemos añadir piezas al final, piezas al principio o piezas en un lugar concreto,
+cada pieza es un elemento del array y la construcción en conjunto, es el array en sí.
