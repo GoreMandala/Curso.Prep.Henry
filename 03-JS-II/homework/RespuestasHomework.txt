@@ -1,0 +1,33 @@
+	For
+
+For es la palabra reservada para bucles. Imaginemos los bucles como un circuito de formula 1.
+Cada vuelta al circuito es una iteración del bucle, cuando declaramos el bucle tenemos que declarar
+con él una variable, llamemosla "i", representará el número de vueltas, que empezará en 0. Tenemos
+que establecer una condicion que dará fin al bucle, como por ejemplo que la carrera termine a las 
+10 vueltas (cuando i === 10) y un código que se ejecutará al terminar cada vuelta, que será i++ 
+(aumentará el valor de i en 1 en cada vuelta). De esta manera nuestro formula (o bucle) dara vueltas
+sumando 1 al valor de i hasta que la condicion, haber completado 10 vueltas, se cumpla. En cada una
+de esas vueltas podemos pedirle al computador que haga ciertas tareas, como por ejemplo cronometrar
+el tiempo de vuelta e imprimirlo en pantalla, de esta forma con cada vuelta el computador realizará
+la tarea y nos devolverá la información.
+
+	&&, ||, !
+
+Estos son los llamados operadores lógicos, se traducen por "y", "o" y "no" respectivamamente. 
+Supongamos que usamos nuestro computador para formar un equipo de futbol. Debemos elegir entre todos
+nuestros amigos a 11 para el equipo, tienen que saber jugar a futbol o tener las tardes libres y 
+ademas no ser mayores de 16 para poder participar en el torneo. Con esto tenemos listas nuestras 
+condiciones para el equipo: debe tener a 11 jugadores que NO DEBEN ser mayores de 16, Y ADEMAS estos
+jugadores tienen que saber jugar a futbol O BIEN tener las tardes libres para poder entrenar. Aqui 
+podriamos perdirle al computador mediante un bucle for que recorriera toda nuestra agenda de amigos
+buscando entre ellos cuales cumplen la primera condicion de NO SER mayores de 16, para eso le 
+pedimos que compare la edad de cada uno de nuestros amigos para ver si no es mayor que 16 y en ese 
+caso devolvernos verdadero y reducir la lista de candidatos (operador !). El segundo paso será 
+comprobar si  sabe jugar a futbol o tiene las tardes libres, nadie nace aprendido, asi que 
+cualquiera de las dos condiciones nos sirve, tanto si cumple una sola de ellas o cumple ambas, 
+es apto para el equipo, pero debemos eliminar aquellos que no cumplan NINGUNA de las dos 
+(operador ||). De la lista restante el computador irá eligiendo al azar, pero deben cumplirse 2 
+condiciones antes, la primera que los elegidos esten en la lista de las personas que cumplen 
+alguna de las condiciones Y ADEMAS que haya menos de 11 personas en el equipo (operador &&) si
+la primera condicion no se cumple, ese elección no servirá, pero tampoco servirá si no se cumple la
+segunda, ya que el equipo estará completo, deben cumplirse AMBAS.
