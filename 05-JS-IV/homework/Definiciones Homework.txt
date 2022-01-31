@@ -1,0 +1,34 @@
+	Objetos
+
+Los objetos en programación son similares a como lo serían en el mundo real. Tienen un nombre, como por ejemplo Automóvil y una serie de propiedades
+que los distinguen del resto de objetos que también son un automóvil. En programación las personas también pueden ser objetos, con propiedades tales
+como el nombre o la edad, en realidad, todo puede ser un objeto. Otra forma de verlos sería imaginándolos como casilleros, el casillero al completo
+sería el objeto y cada casilla una propiedad en la que, además, podemos almacenar valores de todo tipo. 
+
+	Propiedades
+
+Volviendo al ejemplo del casillero, imaginemos que nuestro casillero es "persona", cada casilla contiene información relativa a esa persona, una 
+información que le define y distingue del resto, pero las casillas están cerradas, necesitan una llave. El conjunto de llave (key) e información de cada casilla
+(value) es lo que llamamos propiedad. Así, si tenemos la llave "nombre" podremos ver que la persona se llama Juan, si tenemos la llave "edad" 
+podremos ver que tiene 25 años, así sucesivamente. Usando la llave no solo podemos averiguar qué valor se esconde tras ella, podemos modificarlo sacar
+25 de la casilla edad y colocar un 26 cuando Juan cumpla años, por ejemplo. Las llaves, como buenas llaves, son únicas y solo permiten abrir una casilla,
+es decir, no puede abrirse 2 casillas con la misma llave, una persona no puede tener dos edades o dos nombres, sin embargo, los valores de los casilleros
+pueden repetirse, en algún momento de la vida de juan el valor de su casilla edad será el mismo que el valor de su casilla "talla de zapato".
+
+	Métodos
+
+Los casilleros no solo pueden guardar información, también pueden guardar funciones, por ejemplo en una de las casillas podemos guardar un reloj
+y al abrirla con la llave "Qué_hora_es" el reloj nos daría la hora.
+
+	Bucle for...in
+
+Como ya hemos visto los bucles son herramientas que hacen lo mismo una y otra vez, en el caso del bucle for...in y siguiendo nuestro ejemplo, este se
+encargaría de abrir cada casilla de nuestro casillero. Podemos pedirle por ejemplo que anote en una libreta cada clave que encuentre en las casillas
+que vaya abriendo, el bucle las abrirá todas y nos entregará la libreta con toda la información recolectada.
+	
+	Notación de puntos vs notación de corchetes
+
+Para entender los dos tipos de notación haremos una diferenciación entre nuestras llaves y el nombre de nuestras llaves, en todos los casos siempre
+será el mismo, pero es importante distinguirlos. Cuando usamos notación por puntos, para encontrar la casilla que buscamos utilizamos el nombre del 
+casillero seguido de la propia llave, por ejemplo persona.edad, sin embargo, cuando utilizamos la notación por corchetes no utilizamos la llave, sino 
+su nombre, de esta forma: persona["edad"], ya que, si utilizamos la propia llave, tal que así: persona[edad], el intérprete no sabrá a qué nos referimos.
