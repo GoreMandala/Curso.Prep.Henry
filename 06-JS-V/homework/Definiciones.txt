@@ -1,0 +1,23 @@
+
+	Prototype
+
+Los prototipos en javascript se parecen bastante a lo que en biología sería una organización taxonómica. Pensemos por ejemplo en
+la orca y supongamos que la utilizamos en nuestro programa como un objeto. Para el objeto orca podemos definir propiedades que le son
+únicas, como por ejemplo "caza focas" o "tiene aletas", sin embargo, si utilizamos una visión más global de la orca, nos daremos cuenta
+de que es un mamífero y que, por tanto, ha de tener las propiedades características de los mamíferos, tales como "amamanta" o "tiene pulmones",
+porque todas las orcas amamantan y tienen pulmones. Su continuamos con la abstracción, nos daremos cuenta de que la orca es, además, un ser
+vivo y tiene propiedades tales como "está vivo" o "se reproduce", estas propiedades no son solo comunes a todas las orcas, sino que lo 
+son también a todos los mamíferos. En definitiva, podemos crear un conjunto de seres vivos, en el que está incluido un subconjunto de 
+mamíferos en el que a su vez está incluido el subconjunto de orcas. Cada conjunto superior es lo que en JavaScript llamamos un prototipo
+del conjunto anterior, es, por decirlo de alguna manera, toda la colección de propiedades y características de un conjunto de objetos
+en el que el nuestro, la orca, está incluido.
+
+	Constructor
+
+Los constructores son irónicamente más parecidos a la definición común de prototipo que los propios prototipos. Imaginemos que tenemos
+un molde de horno en el que podemos colocar masa para galletas, rellanamos cada hueco con la masa y en ese momento tenemos nuestro 
+constructor de galletas. Pero no queremos que todas nuestras galletas sepan igual, así que sobre una colocamos una pepita de chocolate,
+sobre otra espolvoreamos azúcar, sobre otra un poco de nata, y así sucesivamente. Ahora cada galleta es única, pero todas han sido creadas
+partiendo de una base común, su constructor, todas ellas tienen sabores y texturas distintas, pero igualmente todas son galletas. Los 
+constructores nos permiten crear plantillas para definir la estructura de los objetos y después recurrir a ellos con tan solo las 
+características únicas que los diferencian para que produzcan el objeto que deseamos.
